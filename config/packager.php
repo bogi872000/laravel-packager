@@ -1,6 +1,10 @@
 <?php
 
 return [
+    /*
+    * You can set the default packages folder path.
+    */
+    'packages_path' => env('PACKAGES_PATH', 'packages'),
 
     /*
      * The following skeleton will be downloaded for each new package.
